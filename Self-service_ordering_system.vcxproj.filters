@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="customermanager.cpp">
+      <Filter>src\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="employeemanager.cpp">
+      <Filter>src\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="dishmanager.cpp">
+      <Filter>src\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="menumanager.cpp">
+      <Filter>src\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ordermanager.cpp">
+      <Filter>src\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MysqlManager.cpp">
+      <Filter>src\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="menuWindow.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="orderHallWindow.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="StartWindow.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="dish.cpp">
+      <Filter>src\bean</Filter>
+    </ClCompile>
+    <ClCompile Include="employee.cpp">
+      <Filter>src\bean</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>src\bean</Filter>
+    </ClCompile>
+    <ClCompile Include="order.cpp">
+      <Filter>src\bean</Filter>
+    </ClCompile>
+    <ClCompile Include="customer.cpp">
+      <Filter>src\bean</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>src\bean</Filter>
+    </ClCompile>
+    <ClCompile Include="orderTakeWindow.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="queryCustomerImformation.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="RegWindow.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboItemDelegate.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWindow.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="BackOfficeManagement.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="customer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="customermanager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="dish.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="dishmanager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="employee.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="employeemanager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="menumanager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MysqlManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="order.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ordermanager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="login.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="mainwindow.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="menuWidget.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="order_hall.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="order_takeAway.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="query.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="reg.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="start.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="managerWidget.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e312c9b8-d6d1-4f81-aaf0-3652577559a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{92fb5960-618c-4dff-980e-57f1b04602d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\manager">
+      <UniqueIdentifier>{d41a5f8b-75fd-47b1-aac1-c7b32373fb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\window">
+      <UniqueIdentifier>{6f0f52aa-3ca4-4b77-a776-15368b07a89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bean">
+      <UniqueIdentifier>{649a2c06-3cc3-471b-9362-fd75a72fb0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{85aeb37a-2cb1-4127-925d-4fcb38055ce1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="StartWindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="menuWindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="orderHallWindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="orderTakeWindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="queryCustomerImformation.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="BackOfficeManagement.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="ComboItemDelegate.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="LoginWindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="RegWindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="resource.qrc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file>people (1).png</file>
+    <file>bb.ico</file>
+    <file>manager.png</file>
+  </qresource>
+</RCC>

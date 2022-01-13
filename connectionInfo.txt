@@ -1,0 +1,5 @@
+localhost
+ss
+12345qwert
+Self-service_ordering_system
+3306
